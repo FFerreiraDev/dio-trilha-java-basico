@@ -1,5 +1,11 @@
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Conta conta = new Conta();
+
+        conta.inputNumeroConta();
+        conta.inputNumeroAgencia();
+        conta.inputNomeCliente();
+        conta.inputSaldoConta();
+        conta.exibirMensagem(); 
     }
 }
